@@ -59,7 +59,7 @@ export default function Gallery() {
 const style = StyleSheet.create({
 
   cont: {
-    marginTop: 100,
+    marginTop: 50,
     alignItems: 'center',
     justifyContent: 'center',
     padding: 24,
