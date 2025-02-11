@@ -13,7 +13,8 @@ export default function App() {
     <PlacesProvider>
         <Stack.Navigator
           screenOptions={{
-            headerStyle: {
+            headerStatusBarHeight: 25,
+            headerStyle: {  
             backgroundColor: '#ff9800',
             },
             headerTintColor: '#fff',
