@@ -11,7 +11,6 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <PlacesProvider>
-      <NavigationContainer>
         <Stack.Navigator
           screenOptions={{
             headerStyle: {
@@ -53,7 +52,6 @@ export default function App() {
                     }}
           />
         </Stack.Navigator>
-      </NavigationContainer>
     </PlacesProvider>
   );
 }

@@ -24,9 +24,6 @@ const reducer = (state, action) => {
       return { ...state, selectedCategory: action.payload };
     case 'SELECT_PLACE':
       return { ...state, selectedPlace: action.payload };
-    case 'SAVE_PLACES':
-      AsyncStorage.setItem('@places', JSON.stringify(state.places));
-      return state;
     default:
       return state;
   }
