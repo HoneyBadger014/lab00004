@@ -1,7 +1,7 @@
 {
   "expo": {
-      "name": "lab00002",
-      "slug": "lab00002",
+      "name": "lab00004",
+      "slug": "lab00004",
       "version": "1.0.0",
       "orientation": "portrait",
       "icon": "./assets/images/icon.png",
@@ -16,7 +16,7 @@
               "foregroundImage": "./assets/images/adaptive-icon.png",
               "backgroundColor": "#ffffff"
           },
-          "package": "com.mnskkv.lab00002"
+          "package": "com.mnskkv.lab00004"
       },
       "web": {
           "bundler": "metro",
@@ -43,7 +43,7 @@
               "origin": false
           },
           "eas": {
-              "projectId": "9ffa09f2-7e23-4c31-ae52-5458720b7f83"
+              "projectId": "b932afbb-5826-4f19-ab76-ef4c44585f7c"
           }
       },
       "owner": "mnskkv"
